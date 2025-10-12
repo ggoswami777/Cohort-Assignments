@@ -56,7 +56,7 @@ function expensiveTask(iterations) {
 }
 
 // Call expensiveTask after starting file read
-expensiveTask(1e7); // try 1e8, 1e9 to see the delay effect
+expensiveTask(1e7); 
 
 // /* Write a function that returns a promise that resolves after n seconds have passed, where n is passed as an argument to the function. */ function wait(n) { } module.exports = wait;
 function wait(n) {
