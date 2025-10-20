@@ -1,0 +1,17 @@
+{
+  "name": "03-mongo",
+  "version": "1.0.0",
+  "description": "Create a course selling website\r Description\r You need to implement a course selling app. Make sure you setup your own mongodb instance before starting. It needs to support two types of users -",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "express": "^5.1.0",
+    "mongoose": "^8.19.1"
+  }
+}
