@@ -3,7 +3,7 @@ import { Client } from 'pg';
 // Async function to fetch user data from the database given an email
 async function getUser(email) {
     const client = new Client({
-        connectionString:"postgresql://neondb_owner:npg_A2FlniXBoU0H@ep-wandering-sound-ad8s17bq-pooler.c-2.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
+        connectionString:import.meta.env.URL
     });
     
 
